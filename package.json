@@ -1,0 +1,33 @@
+{
+  "name": "react-native-keyboard-manager",
+  "version": "0.0.1",
+  "description": "This is just a wrapper to IQKeyboardManager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    // "postinstall": "node podinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RonnieRen/react-native-keyboard-manager.git"
+  },
+  "keywords": [
+    "react-native",
+    "iqkeyboardmanager",
+    "keyboard",
+    "manager"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "ronnie ren",
+  "license": "MIT",
+  "homepage": "https://github.com/RonnieRen/react-native-keyboard-manager#readme",
+  "rnpm": {
+    "commands": {
+      "prelink": "node_modules/react-native-keyboard-manager/bin/prepare.sh",
+      "postlink": "node_modules/react-native-keyboard-manager/bin/cocoapods.sh"
+    }
+  }
+
+}
