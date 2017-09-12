@@ -24,7 +24,19 @@
 ```javascript
 import RNKeyboardmanager from 'react-native-iqkeyboard-manager';
 
-// TODO: What to do with the module?
-RNKeyboardmanager;
+//enable keyboard manager
+RNKeyboardmanager.enableWithOptions({
+    shouldResignOnTouchOutside: true,
+    keyboardDistanceFromTextField: 20,
+    preventShowingBottomBlankSpace: true,
+    enableAutoToolbar: true,
+    toolbarDoneBarButtonItemText: "Done",
+    toolbarManageBehaviour: 1, // 0,1, 2
+    shouldToolbarUsesTextFieldTintColor: true
+})
+
+//disable keybard manager
+RNKeyboardmanager.disable();
+
 ```
 
