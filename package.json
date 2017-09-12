@@ -24,8 +24,8 @@
   "homepage": "https://github.com/RonnieRen/react-native-keyboard-manager#readme",
   "rnpm": {
     "commands": {
-      "prelink": "node_modules/react-native-keyboard-manager/bin/prepare.sh",
-      "postlink": "node_modules/react-native-keyboard-manager/bin/cocoapods.sh"
+      "prelink": "node_modules/react-native-iqkeyboard-manager/bin/prepare.sh",
+      "postlink": "node_modules/react-native-iqkeyboard-manager/bin/cocoapods.sh"
     }
   }
 
