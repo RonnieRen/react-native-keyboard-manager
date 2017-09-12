@@ -1,6 +1,6 @@
 {
   "name": "react-native-iqkeyboard-manager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is just a wrapper to IQKeyboardManager",
   "main": "index.js",
   "scripts": {
