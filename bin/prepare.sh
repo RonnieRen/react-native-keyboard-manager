@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Preparing to link react-native-iqkeyboardmanager for iOS"
+echo "Preparing to link react-native-iqkeyboard-manager for iOS"
 
 echo "Checking CocoaPods..."
 has_cocoapods=`which pod >/dev/null 2>&1`

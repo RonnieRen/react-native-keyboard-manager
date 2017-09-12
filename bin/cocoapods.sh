@@ -7,7 +7,7 @@ if [ -d ios_dir ]
 fi
 
 podfile="$ios_dir/Podfile"
-template=`pwd`/node_modules/react-native-lock/Podfile.template
+
 
 project_name=$(node -pe "require('./package.json').name")
 
@@ -23,7 +23,7 @@ if [ -f $podfile ]
     then
     echo "Add the following pods":
     echo ""
-    echo "pod 'IQKeyboardManager'
+    echo "pod 'IQKeyboardManager'"
     echo ""
     echo "and run 'pod install' to install Lock for iOS"
     exit 0
